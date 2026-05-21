@@ -1,0 +1,20 @@
+{
+  "client_name": "BOSS Lovable Builder (Jen)",
+  "redirect_uris": [
+    "http://127.0.0.1:53682/callback",
+    "http://localhost:53682/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "application_type": "native",
+  "scope": "offline openid email profile projects:read projects:write projects:create workspaces:read workspaces:write",
+  "client_uri": "https://github.com/Toliccs/boss-oauth-clients",
+  "tos_uri": "https://github.com/Toliccs/boss-oauth-clients#readme",
+  "policy_uri": "https://github.com/Toliccs/boss-oauth-clients#readme"
+}
